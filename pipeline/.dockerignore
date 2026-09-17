@@ -1,0 +1,17 @@
+# Runtime data belongs to PostgreSQL and must not be copied into the image.
+ny_taxi_postgres_data/
+
+# Local development artifacts.
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Version-control and environment files.
+.git/
+.gitignore
+.env
+.env.*
+
+# Generated data files.
+*.parquet
